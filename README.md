@@ -5,11 +5,12 @@
 ## Description of the Project 
 
 This project talks about 
-1. Exploring correlations between different financial variables to understand their relationships and impacts on each other. 
-2. 
-3. 
+1. As an Investment Manager our goal is to determine which company we should invest in.
+2. Exploring correlations between different financial ratios to understand their relationships and impacts on each other. 
+3. Analyzing trends over time using time series analysis, visualizing changes in revenues, profits, or other financial indicators.
+4. Lastly, presenting findings and analyses using interactive graphs for clear and comprehensive representation.
 
-THe analysis we're going to do is .. 
+The analysis we're going to do is .. 
 1. 
 2.
 3. 
