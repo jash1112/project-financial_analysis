@@ -47,20 +47,20 @@ data = yf.download("DOL.TO CTC.TO LNR.TO", start="2014-12-31", end="2022-12-31")
 data.head()
 
 
-## Analysis 
+# Analysis 
 
-# Dollarama Analysis
+## Dollarama Analysis
 •	Dataset provides insights into financial health, liquidity, profitability, and efficiency.
 •	Strong relationships between 'Net Income to Stockholders' and stock price indicators sustained over observed periods.
 •	The linear model predicts a negative relationship between time and the Operating Cash Flow Ratio.
 
-# Canadian Tire Analysis
+## Canadian Tire Analysis
 •	Dataset offers insights into financial health, liquidity, profitability, and efficiency.
 •	Indicates mixed performance in debt coverage but sustained profitability and improving efficiency.
 •	Linear model predicts a positive relationship between time and Operating Cash Flow Ratio for 'CTC'.
 •	Correlation between 'Net Income to Stockholders' and stock price suggests a moderate positive relationship.
 
-# Linamar Analysis
+## Linamar Analysis
 •	Indicates mixed debt coverage performance but sustained profits and inventory management improvements.
 •	The linear model predicts a negative relationship between time and the Operating Cash Flow Ratio.
 •	Unusual negative correlation between 'Net Income to Stockholders' and stock price.
