@@ -46,10 +46,26 @@ The members in this group are:
 data = yf.download("DOL.TO CTC.TO LNR.TO", start="2014-12-31", end="2022-12-31")
 data.head()
 
+
 ## Analysis 
 
-In the financial analysis of Canada wide Consumer based companies data ........
+# Dollarama Analysis
+•	Dataset provides insights into financial health, liquidity, profitability, and efficiency.
+•	Strong relationships between 'Net Income to Stockholders' and stock price indicators sustained over observed periods.
+•	The linear model predicts a negative relationship between time and the Operating Cash Flow Ratio.
+
+# Canadian Tire Analysis
+•	Dataset offers insights into financial health, liquidity, profitability, and efficiency.
+•	Indicates mixed performance in debt coverage but sustained profitability and improving efficiency.
+•	Linear model predicts a positive relationship between time and Operating Cash Flow Ratio for 'CTC'.
+•	Correlation between 'Net Income to Stockholders' and stock price suggests a moderate positive relationship.
+
+# Linamar Analysis
+•	Indicates mixed debt coverage performance but sustained profits and inventory management improvements.
+•	The linear model predicts a negative relationship between time and the Operating Cash Flow Ratio.
+•	Unusual negative correlation between 'Net Income to Stockholders' and stock price.
 
 ## Limitations
 
-We only took data from 2014 and 2022 for three companies in consumer sector. 
+•	We only took data from 2014 and 2022 for three companies in the consumer sector. 
+•	We faced a challenge to acquire the API key as there were set limits on call per minute by Alphavantage open API. 
