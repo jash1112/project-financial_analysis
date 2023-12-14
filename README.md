@@ -39,7 +39,7 @@ The members in this group are:
 
 1. www.investment.com
 2. https://www.alphavantage.co/
-3. finance.yahoo.com
+3. www.finance.yahoo.com
 
 ## Code snippets
 ## Import Data from yfinance
