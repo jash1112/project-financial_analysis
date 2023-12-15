@@ -30,15 +30,21 @@ The members in this group are:
 
 ## Work breakdown strucutre
 
-- Member 1 will be pulling the data from Open Toronto, Open York, and Open Markahm region data prtoals, and analyzing it, and answering questions 1, & 5. 
-- Member 2 will be transforming the data Open Vancouver, Open etc. and will be analyzing it and answering questions 1  & 6
+- Aayush Chhaperwal - Data transformation and Calculated Risk analysis Ratio.
+- Jash Bikash - Data transformation and Calculated Liquidity Ratio.
+- John Nguyen - Data transformation and Profitability Ratio.
+- Maher Alqarra - Data transformation and Efficiency Ratio.
 
 ## Datasets used: 
 
-1. www.investment.com 
+1. www.investment.com
+2. https://www.alphavantage.co/
+3. finance.yahoo.com
 
 ## Code snippets
-` import pandas as pd`
+## Import Data from yfinance
+data = yf.download("DOL.TO CTC.TO LNR.TO", start="2014-12-31", end="2022-12-31")
+data.head()
 
 ## Analysis 
 
@@ -46,4 +52,4 @@ In the financial analysis of Canada wide Consumer based companies data ........
 
 ## Limitations
 
-We only took data from 2021 and 2022, but nothing before or after... 
+We only took data from 2014 and 2022 for three companies in consumer sector. 
